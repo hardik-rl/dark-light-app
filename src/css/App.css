@@ -49,3 +49,15 @@ p {
 .main {
   padding: 16px;
 }
+
+.post-table th,
+.post-table td {
+  text-align: left;
+}
+.post-table tr {
+  @apply border-b dark:border-neutral-500;
+}
+.post-table td,
+.post-table th {
+  @apply pr-4 py-4;
+}
