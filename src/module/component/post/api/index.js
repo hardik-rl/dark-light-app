@@ -1,5 +1,5 @@
 import api from "../../../../shared/api";
 
-export const getAllPost = (data) => {
-  return api.get("/post",data);
+export const getAllPost = () => {
+  return api.get("/posts");
 }
